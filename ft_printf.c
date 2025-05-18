@@ -43,18 +43,3 @@ int ft_printf(const char *fmt, ...)
     va_end(v);
     return (count);
 }
-
-int main()
-{
-    // int n, m;
-    int n;
-
-    // int num = 1667;
-    
-    // n = ft_printf("%p %u %d hello %c \n", &num, 188986, -1887, 47);
-    // m = printf("%p %u %d hello %c \n", &num, 188986, -1887, 47);
-    n = ft_printf("%%\n");
-    // m = printf("%r\n");
-    fprintf(stderr, "%d\n", n);
-    return (0);
-}
